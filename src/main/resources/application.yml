@@ -8,7 +8,7 @@ spring:
         webmvc:
           routes:
             - id: customer-service
-              uri: http://localhost:8081
+              uri: https://olacustomerservice-1.onrender.com
               predicates:
                 - Path=/customer/**
 
